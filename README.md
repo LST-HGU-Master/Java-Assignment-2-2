@@ -1,14 +1,12 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# 課題 2-2
+標準入力
 
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+### 課題の説明
+キーボードから整数の入力を1つ受け取って、その数値を2で割った余りを表示するプログラムを作成しなさい。
 
-### Setup command
-N/A
-
-### Run command
-`gradle test`
-
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+- 期待される出力結果
+```java
+整数を入力してください 
+3
+3を2で割った余りは1です
+```
